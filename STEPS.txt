@@ -1,0 +1,122 @@
+https://youtu.be/6cm6G78ZDmM
+https://youtu.be/6cm6G78ZDmM
+https://youtu.be/6cm6G78ZDmM
+
+**********************************************
+npm init -y
+npm i --save express
+node index.js
+npm i puppeteer --save
+**********************************************
+"puppeteer": "^20.5.0"
+"puppeteer": "^19.7.2"
+ 
+E:\>cd ai-related
+
+E:\AI-Related>mkdir puppeteer-render
+
+E:\AI-Related>cd puppeteer-render
+
+E:\AI-Related\puppeteer-render>code .
+
+E:\AI-Related\puppeteer-render>
+
+PS E:\AI-Related\puppeteer-render> npm init -y
+Wrote to E:\AI-Related\puppeteer-render\package.json:
+
+{
+  "name": "puppeteer-render",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+PS E:\AI-Related\puppeteer-render> npm i --save express
+
+added 58 packages, and audited 59 packages in 5s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS E:\AI-Related\puppeteer-render> 
+
+PS E:\AI-Related\puppeteer-render> npm i --save express
+PS E:\AI-Related\puppeteer-render> npm start
+
+> puppeteer-render@1.0.0 start
+> node index.js
+
+Listening on PORT 4000
+
+http://localhost:4000/
+Render Puppeteer server is up and running.
+
+http://localhost:4000/scrape
+Hello from scrapeLogic.
+
+google search
+puppeteer npm
+npm i puppeteer --save
+
+https://github.com/
+puppeteer-render
+
+
+E:\AI-Related\puppeteer-render>git init
+Initialized empty Git repository in E:/AI-Related/puppeteer-render/.git/
+
+E:\AI-Related\puppeteer-render>
+
+CREATE .gitignore file
+
+echo "# puppeteer-render" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/neetaaGudimetla/puppeteer-render.git
+git push -u origin main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PS E:\AI-Related\puppeteer-render> npm i puppeteer --save
+
+added 138 packages, and audited 197 packages in 15s
+
+17 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS E:\AI-Related\puppeteer-render> 
