@@ -1,4 +1,6 @@
 const puppeteer = require('puppeteer');
+require("dotenv").config();
+
 const scrapeLogic = async (res) => {
 
     /*  const browser = await puppeteer.launch({
@@ -54,7 +56,18 @@ function run() {
     return new Promise(async (resolve, reject) => {
         try {
             //throw new Error("Whoops!");
-            const browser = await puppeteer.launch();
+            ////const browser = await puppeteer.launch();
+            const browser = await puppeteer.launch({
+                args: [
+                    "--disable-setuid-sandbox",
+                    "--no-sandbox",
+                    "--single-process",
+                    "--no-zygote",
+                ],
+                executablePath: process.env.NODE_ENV === "production"
+                    ? process.env.PUPPETEER_EXECUTABLE_PATH
+                    : puppeteer.executablePath(),
+            });
             const page = await browser.newPage();
             await page.goto("https://news.ycombinator.com/");
 
