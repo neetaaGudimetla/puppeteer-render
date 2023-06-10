@@ -84,12 +84,109 @@ git branch -M main
 git remote add origin https://github.com/neetaaGudimetla/puppeteer-render.git
 git push -u origin main
 
+render.com
+https://dashboard.render.com/web/new
+
+https://github.com/neetaaGudimetla/puppeteer-render
 
 
+https://puppeteer-render-ey4m.onrender.com/
+Render Puppeteer server is up and running.
 
 
+--------------------------------------------------------------------------------
+E:\AI-Related\puppeteer-render>git init
+Initialized empty Git repository in E:/AI-Related/puppeteer-render/.git/
+
+E:\AI-Related\puppeteer-render>git remote add origin https://github.com/neetaaGudimetla/puppeteer-render.git
+
+E:\AI-Related\puppeteer-render>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        STEPS.txt
+        index.js
+        package-lock.json
+        package.json
+        scrapeLogic.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+E:\AI-Related\puppeteer-render>git branch -M main
+
+E:\AI-Related\puppeteer-render>git add .
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+
+E:\AI-Related\puppeteer-render>git commit -m "First Commit"
+[main (root-commit) cab0e6f] First Commit
+ 6 files changed, 2899 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 STEPS.txt
+ create mode 100644 index.js
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 scrapeLogic.js
+
+E:\AI-Related\puppeteer-render>git push
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
 
 
+E:\AI-Related\puppeteer-render>git push --set-upstream origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 31.51 KiB | 6.30 MiB/s, done.
+Total 8 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/neetaaGudimetla/puppeteer-render.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+E:\AI-Related\puppeteer-render>
+--------------------------------------------------------------------------------
+https://puppeteer-render-ey4m.onrender.com/scrape
+
+Something went wrong :Error: Could not find Chromium (rev. 1108766). This can occur if either 1. you did not perform an installation before running the script (e.g. `npm install`) or 2. your cache path is incorrectly configured (which is: /opt/render/.cache/puppeteer). For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+
+ERROR :
+------------------------------------------
+Jun 10 11:04:49 AM  
+Jun 10 11:04:49 AM    Puppeteer old Headless deprecation warning:
+Jun 10 11:04:49 AM      In the near feature `headless: true` will default to the new Headless mode
+Jun 10 11:04:49 AM      for Chrome instead of the old Headless implementation. For more
+Jun 10 11:04:49 AM      information, please see https://developer.chrome.com/articles/new-headless/.
+Jun 10 11:04:49 AM      Consider opting in early by passing `headless: "new"` to `puppeteer.launch()`
+Jun 10 11:04:49 AM      If you encounter any bugs, please report them to https://github.com/puppeteer/puppeteer/issues/new/choose.
+Jun 10 11:04:49 AM  
+Jun 10 11:04:49 AM  Error: Could not find Chromium (rev. 1108766). This can occur if either
+Jun 10 11:04:49 AM   1. you did not perform an installation before running the script (e.g. `npm install`) or
+Jun 10 11:04:49 AM   2. your cache path is incorrectly configured (which is: /opt/render/.cache/puppeteer).
+Jun 10 11:04:49 AM  For (2), check out our guide on configuring puppeteer at https://pptr.dev/guides/configuration.
+Jun 10 11:04:49 AM      at ChromeLauncher.resolveExecutablePath (/opt/render/project/src/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ProductLauncher.js:289:27)
+Jun 10 11:04:49 AM      at ChromeLauncher.executablePath (/opt/render/project/src/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ChromeLauncher.js:182:25)
+Jun 10 11:04:49 AM      at ChromeLauncher.computeLaunchArguments (/opt/render/project/src/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ChromeLauncher.js:99:37)
+Jun 10 11:04:49 AM      at async ChromeLauncher.launch (/opt/render/project/src/node_modules/puppeteer-core/lib/cjs/puppeteer/node/ProductLauncher.js:83:28)
+Jun 10 11:04:49 AM      at async /opt/render/project/src/scrapeLogic.js:57:29
+
+-------------------------------------------------
+FROM 12:00 IN THE VIDEO LINK
+puppeteer docker
+https://pptr.dev/guides/docker
+
+package.json
+"puppeteer": "^19.7.2"
 
 
 
@@ -120,3 +217,26 @@ added 138 packages, and audited 197 packages in 15s
 
 found 0 vulnerabilities
 PS E:\AI-Related\puppeteer-render> 
+==============================================
+Jun 10 11:03:10 AM  ==> Cloning from https://github.com/neetaaGudimetla/puppeteer-render...
+Jun 10 11:03:11 AM  ==> Checking out commit cab0e6fca177460b654601c952d928342915f6ef in branch main
+Jun 10 11:03:13 AM  ==> Downloading cache...
+Jun 10 11:03:33 AM  ==> Using Node version 14.17.0 (default)
+Jun 10 11:03:33 AM  ==> Docs on specifying a Node version: https://render.com/docs/node-version
+Jun 10 11:03:33 AM  ==> Running build command 'npm install'...
+Jun 10 11:03:29 AM  ==> Transferred 155MB in 9s. Extraction took 4s.
+Jun 10 11:03:34 AM  audited 150 packages in 1.306s
+Jun 10 11:03:34 AM  
+Jun 10 11:03:34 AM  17 packages are looking for funding
+Jun 10 11:03:34 AM    run `npm fund` for details
+Jun 10 11:03:34 AM  
+Jun 10 11:03:34 AM  found 0 vulnerabilities
+Jun 10 11:03:34 AM  
+Jun 10 11:03:35 AM  ==> Uploading build...
+Jun 10 11:03:43 AM  ==> Build uploaded in 8s
+Jun 10 11:03:43 AM  ==> Build successful 🎉
+Jun 10 11:03:43 AM  ==> Deploying...
+Jun 10 11:04:11 AM  ==> Starting service with 'node index.js'
+Jun 10 11:04:15 AM  Your service is live 🎉
+Jun 10 11:04:14 AM  Listening on PORT 10000
+========================================================
